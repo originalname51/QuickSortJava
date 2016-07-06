@@ -6,23 +6,18 @@ https://en.wikipedia.org/wiki/Quicksort
 
 Pseudocode (from wikipedia) below:
 
-algorithm quicksort(A, lo, hi) is
-
+    algorithm quicksort(A, lo, hi) is
     if lo < hi then
-    
         p := partition(A, lo, hi)
         
         quicksort(A, lo, p – 1)
         
         quicksort(A, p + 1, hi)
         
-algorithm partition(A, lo, hi) is
+    algorithm partition(A, lo, hi) is
     pivot := A[hi]
-    
     i := lo        // place for swapping
-    
     for j := lo to hi – 1 do
-    
         if A[j] ≤ pivot then
         
             swap A[i] with A[j]
@@ -30,7 +25,6 @@ algorithm partition(A, lo, hi) is
             i := i + 1
             
     swap A[i] with A[hi]
-    
     return i
     
     
