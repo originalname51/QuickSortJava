@@ -4,7 +4,7 @@ Quick Sort Implementation Using Java
 This is a quick sort implementation using wikipedia's pseudocode from the Lomuto partition scheme.
 https://en.wikipedia.org/wiki/Quicksort
 
-Pseudocode (from wikipedia) below:
+Pseudocode (from wikipedia - format is a bit messy. It's two functions, quicksort and partition) below:
 
     algorithm quicksort(A, lo, hi) is
     if lo < hi then
