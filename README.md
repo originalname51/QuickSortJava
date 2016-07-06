@@ -17,7 +17,6 @@ algorithm quicksort(A, lo, hi) is
         quicksort(A, p + 1, hi)
         
 algorithm partition(A, lo, hi) is
-
     pivot := A[hi]
     
     i := lo        // place for swapping
