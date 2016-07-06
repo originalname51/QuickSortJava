@@ -28,6 +28,6 @@ Pseudocode (from wikipedia - format is a bit messy. It's two functions, quicksor
     return i
     
     
-    
-    Test are in test folder. 
+
+The test are in the test folder. Main will sort an array.
 
